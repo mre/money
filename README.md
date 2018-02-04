@@ -1,4 +1,4 @@
-# Money
+![Money](/money.png)
 
 Sample code for my talk [*Idiomatic Rust*](https://fosdem.org/2018/schedule/event/rust_idiomatic/), which I gave at FOSDEM 2018.  
 
