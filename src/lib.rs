@@ -41,7 +41,7 @@ pub enum MoneyError {
 }
 
 /// A conversion from `std::num::ParseFloatError`
-/// into our custom MoneyError type.
+/// into our custom `MoneyError` type.
 impl From<ParseFloatError> for MoneyError {
     fn from(e: ParseFloatError) -> Self {
         MoneyError::ParseAmount(e)
